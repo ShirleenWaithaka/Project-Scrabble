@@ -58,7 +58,7 @@ function genBoard() {
             col.style.alignItems = "center";
             col.id = `${r},${c},moves`;  // Corrected template literal
             col.style.border = "2px solid grey";
-            //col.style.position = "relative"; // Needed for absolute positioning of letters
+            
 
             // Add a permanent star symbol to the (8, 8) tile
             if (r === 8 && c === 8) {
